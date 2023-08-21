@@ -170,7 +170,8 @@ int write_unsgnd(int is_negative, int ind,
 	UNUSED(size);
 
 	if (precision == 0 && ind == BUFF_SIZE - 2 && buffer[ind] == '0')
-		return(0);_
+		return (0);
+
 	if (precision > 0 && precision < length)
 		padd = ' ';
 
