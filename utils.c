@@ -3,7 +3,7 @@
 /**
  * is_printable - Evaluates if char is printable
  *
- * @C: char to be evluated
+ * @c: char to be evluated
  *
  * Return: 1 if c is printable, 0 if no
 */
