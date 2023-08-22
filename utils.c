@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
- * is_printable - Evaluates if char is printable
+ * new_is_printable - Evaluates if char is printable
  *
  * @c: char to be evluated
  *
  * Return: 1 if c is printable, 0 if no
 */
 
-int is_printable(char c)
+int new_is_printable(char c)
 {
 	if (c >= 32 && c < 127)
 		return (1);
