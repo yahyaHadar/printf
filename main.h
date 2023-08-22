@@ -108,7 +108,7 @@ char buffer[],
 	int flags, int width, int precision, int size);
 
 /** Utls **/
-int is_printable(char);
+int new_is_printable(char);
 int append_hexa_code(char, char[], int);
 int is_digit(char);
 
