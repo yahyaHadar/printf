@@ -22,7 +22,7 @@ int get_precision(const char *format, int *i, va_list list)
 
 	for (curr_i += 1; format[curr_i] != '\0'; curr_i++)
 	{
-		if (is_digit(format[curr_i]))
+		if (new_is_digit(format[curr_i]))
 		{
 			precision *= 10;
 			precision += format[curr_i] - '0';
