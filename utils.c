@@ -59,7 +59,7 @@ int is_digit(char c)
 }
 
 /**
- * convert_size_number - Casts a number to the specified size
+ * new_convert_size_number - Casts a number to the specified size
  *
  * @num: Number to be casted.
  * @size: Number indicating the type to be casted.
@@ -67,7 +67,7 @@ int is_digit(char c)
  * Return: Casted value of num
 */
 
-long int convert_size_number(long int num, int size)
+long int new_convert_size_number(long int num, int size)
 {
 	if (size == S_LONG)
 		return (num);
